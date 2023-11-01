@@ -19,14 +19,10 @@ public class Student {
         this.gradeAverageFourthYear = gradeAverageFourthYear;
     }
 
-    /**
-     * The problem here is building a new Student is a complex process.
-     * Also, null parameters are not a good practice.
-     * Builder is a design pattern that solve our issue.
-     */
-
     public static void main(String[] args) {
         Student student_1 = new Student("Andrei", 29, "This student graduated, has all grades not null.", 6.5, 6.5, 6.5, 6.5);
         Student student_2 = new Student("Andreea", 29, "This student only graduated first year.", 7.5, null, null, null);
+
+        // TODO: create student_2 using StudentBuilder
     }
 }
