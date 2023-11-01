@@ -12,7 +12,7 @@ public class StudentBuilder {
      *  - OUTPUT: return this instance of builder (StudentBuilder in our case)
      * 5. create a method called "build" that instantiate a new Student and pass as arguments, corresponding variable from StudentBuilder class.
 
-     * Great job! Now you have a builder class. Let put this at work.
+     * Great job! Now you have a builder class. Let put this at work!
 
      * TODO Go back to Student class and in main method create a new Student using StudentBuilder. Spot the differences from creating Student using new keyword.
      */
