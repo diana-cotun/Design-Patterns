@@ -4,11 +4,11 @@ public class PlanFactory {
 
     /**
      * TODO: Steps to create FactoryMethod design pattern
-     * 1. create a public static method called "getPlan" that gets a String as argument and returns a Plan
+     * 1. create a public static method called "getPlan" that gets as argument a String called type and returns a Plan
      * 2. in method body create an if-else block like follows:
-     *  - if argument equals "personal" return a PersonalPlan instance
-     *  - else if argument equals "enterprise" return a EnterprisePlan instance
-     *  - else throw a RuntimeException with message "There is no Plan of type ${argument}"
+     *  - if type equals "personal" return a PersonalPlan instance
+     *  - else if type equals "enterprise" return a EnterprisePlan instance
+     *  - else throw a RuntimeException with message "There is no Plan of given type"
 
      * Great job! Now you have a method factory. Let put this at work.
 
